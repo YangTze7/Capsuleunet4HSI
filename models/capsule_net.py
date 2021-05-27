@@ -33,7 +33,7 @@ class SegCaps(nn.Module):
         self.step_8 = CapsuleLayer(4, 16, "deconv", k=5, s=2, t_1=2, z_1=16, routing=3)
         self.step_10 = CapsuleLayer(3, 16, "conv", k=5, s=1, t_1=1, z_1=16, routing=3)
         self.conv_2 = nn.Sequential(
-            nn.Conv2d(16, 1, 5, 1, padding=2),
+            nn.Conv2d(16, 5, 5, 1, padding=2),
         )
     def forward(self, x):
         x = self.conv_1(x)
@@ -65,9 +65,11 @@ class SegCaps(nn.Module):
         x=torch.cat((x,skip_1),1)
         x=self.step_10(x)
         x.squeeze_(1)
-        v_lens = self.compute_vector_length(x)
-        v_lens=v_lens.squeeze(1)
-        return v_lens
+        x = self.conv_2(x)
+        # v_lens = self.compute_vector_length(x)
+        # v_lens=v_lens.squeeze(1)
+        # return v_lens
+        return x
     def compute_vector_length(self, x):
         out = (x.pow(2)).sum(1, True)+1e-9
         out=out.sqrt()
@@ -81,7 +83,7 @@ def test():
     model = model.cuda()
     print(model)
     c = input('s')
-    a = torch.ones(1, 3, 256, 256)
+    a = torch.ones(1, 32, 256, 256)
     a = a.cuda()
     b = model(a)
     print(b)
