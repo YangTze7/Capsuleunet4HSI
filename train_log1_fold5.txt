@@ -1,0 +1,1405 @@
+FOLD 0
+--------------------------------
+Total Epoch:100 Image_size:(256, 256) Training num:288  Validation num:72
+Reset trainable parameters of layer = Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(64, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(64, 32, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(128, 64, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(256, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(256, 128, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(512, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(512, 256, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(96, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(64, 32, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(192, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(128, 64, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(384, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(256, 128, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(64, 32, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(128, 64, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(160, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(64, 32, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(32, 5, kernel_size=(1, 1), stride=(1, 1))
+Reset trainable parameters of layer = Conv2d(32, 5, kernel_size=(1, 1), stride=(1, 1))
+Reset trainable parameters of layer = Conv2d(32, 5, kernel_size=(1, 1), stride=(1, 1))
+Reset trainable parameters of layer = Conv2d(32, 5, kernel_size=(1, 1), stride=(1, 1))
+[train] epoch:0 iter:0/18 0.00% lr:0.001000 loss:1.234818 ETA:0.0min
+[val] epoch:0 miou:0.0971 kappa:0.0207
+[save] Best Model saved at epoch:0 fold:0 =============================
+[train] epoch:1 iter:0/18 0.00% lr:0.000753 loss:0.731149 ETA:0.0min
+[val] epoch:1 miou:0.3098 kappa:0.4778
+[save] Best Model saved at epoch:1 fold:0 =============================
+[train] epoch:2 iter:0/18 0.00% lr:0.000258 loss:0.584861 ETA:0.0min
+[val] epoch:2 miou:0.5070 kappa:0.6528
+[save] Best Model saved at epoch:2 fold:0 =============================
+[train] epoch:3 iter:0/18 0.00% lr:0.001000 loss:0.643574 ETA:0.0min
+[val] epoch:3 miou:0.3086 kappa:0.3472
+[train] epoch:4 iter:0/18 0.00% lr:0.000934 loss:0.555861 ETA:0.0min
+[val] epoch:4 miou:0.0935 kappa:0.0790
+[train] epoch:5 iter:0/18 0.00% lr:0.000753 loss:0.594197 ETA:0.0min
+[val] epoch:5 miou:0.4848 kappa:0.6172
+[train] epoch:6 iter:0/18 0.00% lr:0.000505 loss:0.521464 ETA:0.0min
+[val] epoch:6 miou:0.4723 kappa:0.6015
+[train] epoch:7 iter:0/18 0.00% lr:0.000258 loss:0.600994 ETA:0.0min
+[val] epoch:7 miou:0.5786 kappa:0.7356
+[save] Best Model saved at epoch:7 fold:0 =============================
+[train] epoch:8 iter:0/18 0.00% lr:0.000076 loss:0.537307 ETA:0.0min
+[val] epoch:8 miou:0.5835 kappa:0.7450
+[save] Best Model saved at epoch:8 fold:0 =============================
+[train] epoch:9 iter:0/18 0.00% lr:0.001000 loss:0.568085 ETA:0.0min
+[val] epoch:9 miou:0.4564 kappa:0.5987
+[train] epoch:10 iter:0/18 0.00% lr:0.000983 loss:0.596356 ETA:0.0min
+[val] epoch:10 miou:0.3932 kappa:0.5304
+[train] epoch:11 iter:0/18 0.00% lr:0.000934 loss:0.569301 ETA:0.0min
+[val] epoch:11 miou:0.4054 kappa:0.3563
+[train] epoch:12 iter:0/18 0.00% lr:0.000855 loss:0.546150 ETA:0.0min
+[val] epoch:12 miou:0.4519 kappa:0.4568
+[train] epoch:13 iter:0/18 0.00% lr:0.000753 loss:0.548159 ETA:0.0min
+[val] epoch:13 miou:0.6076 kappa:0.7163
+[save] Best Model saved at epoch:13 fold:0 =============================
+[train] epoch:14 iter:0/18 0.00% lr:0.000633 loss:0.580540 ETA:0.0min
+[val] epoch:14 miou:0.5206 kappa:0.6011
+[train] epoch:15 iter:0/18 0.00% lr:0.000505 loss:0.528489 ETA:0.0min
+[val] epoch:15 miou:0.5405 kappa:0.6723
+[train] epoch:16 iter:0/18 0.00% lr:0.000377 loss:0.491021 ETA:0.0min
+[val] epoch:16 miou:0.5757 kappa:0.6327
+[train] epoch:17 iter:0/18 0.00% lr:0.000258 loss:0.546097 ETA:0.0min
+[val] epoch:17 miou:0.6298 kappa:0.7309
+[save] Best Model saved at epoch:17 fold:0 =============================
+[train] epoch:18 iter:0/18 0.00% lr:0.000155 loss:0.526742 ETA:0.0min
+[val] epoch:18 miou:0.6633 kappa:0.7589
+[save] Best Model saved at epoch:18 fold:0 =============================
+[train] epoch:19 iter:0/18 0.00% lr:0.000076 loss:0.580997 ETA:0.0min
+[val] epoch:19 miou:0.6684 kappa:0.7622
+[save] Best Model saved at epoch:19 fold:0 =============================
+[train] epoch:20 iter:0/18 0.00% lr:0.000027 loss:0.539716 ETA:0.0min
+[val] epoch:20 miou:0.6683 kappa:0.7632
+[train] epoch:21 iter:0/18 0.00% lr:0.001000 loss:0.548135 ETA:0.0min
+[val] epoch:21 miou:0.2737 kappa:0.1769
+[train] epoch:22 iter:0/18 0.00% lr:0.000996 loss:0.596272 ETA:0.0min
+[val] epoch:22 miou:0.4912 kappa:0.5578
+[train] epoch:23 iter:0/18 0.00% lr:0.000983 loss:0.544724 ETA:0.0min
+[val] epoch:23 miou:0.0395 kappa:0.0038
+[train] epoch:24 iter:0/18 0.00% lr:0.000962 loss:0.520644 ETA:0.0min
+[val] epoch:24 miou:0.6228 kappa:0.7057
+[train] epoch:25 iter:0/18 0.00% lr:0.000934 loss:0.484257 ETA:0.0min
+[val] epoch:25 miou:0.5187 kappa:0.6060
+[train] epoch:26 iter:0/18 0.00% lr:0.000898 loss:0.599588 ETA:0.0min
+[val] epoch:26 miou:0.4487 kappa:0.4110
+[train] epoch:27 iter:0/18 0.00% lr:0.000855 loss:0.513713 ETA:0.0min
+[val] epoch:27 miou:0.2890 kappa:0.2122
+[train] epoch:28 iter:0/18 0.00% lr:0.000806 loss:0.559573 ETA:0.0min
+[val] epoch:28 miou:0.3768 kappa:0.5098
+[train] epoch:29 iter:0/18 0.00% lr:0.000753 loss:0.526350 ETA:0.0min
+[val] epoch:29 miou:0.5906 kappa:0.6897
+[train] epoch:30 iter:0/18 0.00% lr:0.000694 loss:0.488235 ETA:0.0min
+[val] epoch:30 miou:0.6027 kappa:0.6965
+[train] epoch:31 iter:0/18 0.00% lr:0.000633 loss:0.510632 ETA:0.0min
+[val] epoch:31 miou:0.5069 kappa:0.6293
+[train] epoch:32 iter:0/18 0.00% lr:0.000570 loss:0.532450 ETA:0.0min
+[val] epoch:32 miou:0.6761 kappa:0.7647
+[save] Best Model saved at epoch:32 fold:0 =============================
+[train] epoch:33 iter:0/18 0.00% lr:0.000505 loss:0.536733 ETA:0.0min
+[val] epoch:33 miou:0.6355 kappa:0.7215
+[train] epoch:34 iter:0/18 0.00% lr:0.000440 loss:0.532963 ETA:0.0min
+[val] epoch:34 miou:0.6536 kappa:0.7298
+[train] epoch:35 iter:0/18 0.00% lr:0.000377 loss:0.499184 ETA:0.0min
+[val] epoch:35 miou:0.5148 kappa:0.5412
+[train] epoch:36 iter:0/18 0.00% lr:0.000316 loss:0.500338 ETA:0.0min
+[val] epoch:36 miou:0.6711 kappa:0.7601
+[train] epoch:37 iter:0/18 0.00% lr:0.000258 loss:0.435322 ETA:0.0min
+[val] epoch:37 miou:0.6082 kappa:0.7417
+[train] epoch:38 iter:0/18 0.00% lr:0.000204 loss:0.473892 ETA:0.0min
+[val] epoch:38 miou:0.6550 kappa:0.7394
+[train] epoch:39 iter:0/18 0.00% lr:0.000155 loss:0.531494 ETA:0.0min
+[val] epoch:39 miou:0.6755 kappa:0.7600
+[train] epoch:40 iter:0/18 0.00% lr:0.000112 loss:0.471047 ETA:0.0min
+[val] epoch:40 miou:0.6819 kappa:0.7716
+[save] Best Model saved at epoch:40 fold:0 =============================
+[train] epoch:41 iter:0/18 0.00% lr:0.000076 loss:0.485670 ETA:0.0min
+[val] epoch:41 miou:0.6656 kappa:0.7477
+[train] epoch:42 iter:0/18 0.00% lr:0.000048 loss:0.515993 ETA:0.0min
+[val] epoch:42 miou:0.6943 kappa:0.7770
+[save] Best Model saved at epoch:42 fold:0 =============================
+[train] epoch:43 iter:0/18 0.00% lr:0.000027 loss:0.507880 ETA:0.0min
+[val] epoch:43 miou:0.6950 kappa:0.7773
+[save] Best Model saved at epoch:43 fold:0 =============================
+[train] epoch:44 iter:0/18 0.00% lr:0.000014 loss:0.474145 ETA:0.0min
+[val] epoch:44 miou:0.6943 kappa:0.7772
+[train] epoch:45 iter:0/18 0.00% lr:0.001000 loss:0.456900 ETA:0.0min
+[val] epoch:45 miou:0.2135 kappa:0.2545
+[train] epoch:46 iter:0/18 0.00% lr:0.000999 loss:0.514198 ETA:0.0min
+[val] epoch:46 miou:0.3902 kappa:0.4428
+[train] epoch:47 iter:0/18 0.00% lr:0.000996 loss:0.515115 ETA:0.0min
+[val] epoch:47 miou:0.4344 kappa:0.4510
+[train] epoch:48 iter:0/18 0.00% lr:0.000990 loss:0.546550 ETA:0.0min
+[val] epoch:48 miou:0.6333 kappa:0.7057
+[train] epoch:49 iter:0/18 0.00% lr:0.000983 loss:0.513726 ETA:0.0min
+[val] epoch:49 miou:0.4021 kappa:0.3732
+[train] epoch:50 iter:0/18 0.00% lr:0.000974 loss:0.533780 ETA:0.0min
+[val] epoch:50 miou:0.4207 kappa:0.5962
+[train] epoch:51 iter:0/18 0.00% lr:0.000962 loss:0.540132 ETA:0.0min
+[val] epoch:51 miou:0.3018 kappa:0.4589
+[train] epoch:52 iter:0/18 0.00% lr:0.000949 loss:0.471491 ETA:0.0min
+[val] epoch:52 miou:0.5430 kappa:0.5687
+[train] epoch:53 iter:0/18 0.00% lr:0.000934 loss:0.508021 ETA:0.0min
+[val] epoch:53 miou:0.5901 kappa:0.6593
+[train] epoch:54 iter:0/18 0.00% lr:0.000917 loss:0.521375 ETA:0.0min
+[val] epoch:54 miou:0.6503 kappa:0.7406
+[train] epoch:55 iter:0/18 0.00% lr:0.000898 loss:0.526571 ETA:0.0min
+[val] epoch:55 miou:0.4044 kappa:0.4244
+[train] epoch:56 iter:0/18 0.00% lr:0.000877 loss:0.533798 ETA:0.0min
+[val] epoch:56 miou:0.5077 kappa:0.5239
+[train] epoch:57 iter:0/18 0.00% lr:0.000855 loss:0.480481 ETA:0.0min
+[val] epoch:57 miou:0.4969 kappa:0.6050
+[train] epoch:58 iter:0/18 0.00% lr:0.000831 loss:0.515463 ETA:0.0min
+[val] epoch:58 miou:0.5800 kappa:0.6664
+[train] epoch:59 iter:0/18 0.00% lr:0.000806 loss:0.479580 ETA:0.0min
+[val] epoch:59 miou:0.4667 kappa:0.5848
+[train] epoch:60 iter:0/18 0.00% lr:0.000780 loss:0.495178 ETA:0.0min
+[val] epoch:60 miou:0.4767 kappa:0.5016
+[train] epoch:61 iter:0/18 0.00% lr:0.000753 loss:0.455920 ETA:0.0min
+[val] epoch:61 miou:0.4281 kappa:0.3975
+[train] epoch:62 iter:0/18 0.00% lr:0.000724 loss:0.483095 ETA:0.0min
+[val] epoch:62 miou:0.4515 kappa:0.4844
+[train] epoch:63 iter:0/18 0.00% lr:0.000694 loss:0.450375 ETA:0.0min
+[val] epoch:63 miou:0.4499 kappa:0.4376
+[train] epoch:64 iter:0/18 0.00% lr:0.000664 loss:0.519808 ETA:0.0min
+[val] epoch:64 miou:0.5235 kappa:0.6296
+[train] epoch:65 iter:0/18 0.00% lr:0.000633 loss:0.532757 ETA:0.0min
+[val] epoch:65 miou:0.5508 kappa:0.6033
+[train] epoch:66 iter:0/18 0.00% lr:0.000602 loss:0.480230 ETA:0.0min
+[val] epoch:66 miou:0.2841 kappa:0.2680
+[train] epoch:67 iter:0/18 0.00% lr:0.000570 loss:0.554210 ETA:0.0min
+[val] epoch:67 miou:0.5765 kappa:0.6392
+[train] epoch:68 iter:0/18 0.00% lr:0.000537 loss:0.486118 ETA:0.0min
+[val] epoch:68 miou:0.5899 kappa:0.6419
+[train] epoch:69 iter:0/18 0.00% lr:0.000505 loss:0.502960 ETA:0.0min
+[val] epoch:69 miou:0.6328 kappa:0.7218
+[train] epoch:70 iter:0/18 0.00% lr:0.000473 loss:0.479994 ETA:0.0min
+[val] epoch:70 miou:0.6519 kappa:0.7394
+[train] epoch:71 iter:0/18 0.00% lr:0.000440 loss:0.427184 ETA:0.0min
+[val] epoch:71 miou:0.5201 kappa:0.6240
+[train] epoch:72 iter:0/18 0.00% lr:0.000408 loss:0.491484 ETA:0.0min
+[val] epoch:72 miou:0.6574 kappa:0.7132
+[train] epoch:73 iter:0/18 0.00% lr:0.000377 loss:0.573184 ETA:0.0min
+[val] epoch:73 miou:0.6350 kappa:0.7230
+[train] epoch:74 iter:0/18 0.00% lr:0.000346 loss:0.531720 ETA:0.0min
+[val] epoch:74 miou:0.6894 kappa:0.7697
+[train] epoch:75 iter:0/18 0.00% lr:0.000316 loss:0.506716 ETA:0.0min
+[val] epoch:75 miou:0.6808 kappa:0.7723
+[train] epoch:76 iter:0/18 0.00% lr:0.000286 loss:0.459215 ETA:0.0min
+[val] epoch:76 miou:0.5204 kappa:0.5846
+[train] epoch:77 iter:0/18 0.00% lr:0.000258 loss:0.455156 ETA:0.0min
+[val] epoch:77 miou:0.5752 kappa:0.6420
+[train] epoch:78 iter:0/18 0.00% lr:0.000230 loss:0.472740 ETA:0.0min
+[val] epoch:78 miou:0.6991 kappa:0.7810
+[save] Best Model saved at epoch:78 fold:0 =============================
+[train] epoch:79 iter:0/18 0.00% lr:0.000204 loss:0.469440 ETA:0.0min
+[val] epoch:79 miou:0.6183 kappa:0.7565
+[train] epoch:80 iter:0/18 0.00% lr:0.000179 loss:0.459084 ETA:0.0min
+[val] epoch:80 miou:0.7034 kappa:0.7927
+[save] Best Model saved at epoch:80 fold:0 =============================
+[train] epoch:81 iter:0/18 0.00% lr:0.000155 loss:0.458934 ETA:0.0min
+[val] epoch:81 miou:0.7093 kappa:0.7884
+[save] Best Model saved at epoch:81 fold:0 =============================
+[train] epoch:82 iter:0/18 0.00% lr:0.000133 loss:0.456668 ETA:0.0min
+[val] epoch:82 miou:0.7113 kappa:0.7943
+[save] Best Model saved at epoch:82 fold:0 =============================
+[train] epoch:83 iter:0/18 0.00% lr:0.000112 loss:0.427493 ETA:0.0min
+[val] epoch:83 miou:0.7168 kappa:0.7965
+[save] Best Model saved at epoch:83 fold:0 =============================
+[train] epoch:84 iter:0/18 0.00% lr:0.000093 loss:0.435729 ETA:0.0min
+[val] epoch:84 miou:0.7210 kappa:0.7985
+[save] Best Model saved at epoch:84 fold:0 =============================
+[train] epoch:85 iter:0/18 0.00% lr:0.000076 loss:0.473219 ETA:0.0min
+[val] epoch:85 miou:0.6898 kappa:0.7658
+[train] epoch:86 iter:0/18 0.00% lr:0.000061 loss:0.451528 ETA:0.0min
+[val] epoch:86 miou:0.7163 kappa:0.7957
+[train] epoch:87 iter:0/18 0.00% lr:0.000048 loss:0.451504 ETA:0.0min
+[val] epoch:87 miou:0.7169 kappa:0.7961
+[train] epoch:88 iter:0/18 0.00% lr:0.000036 loss:0.456131 ETA:0.0min
+[val] epoch:88 miou:0.7176 kappa:0.7970
+[train] epoch:89 iter:0/18 0.00% lr:0.000027 loss:0.469040 ETA:0.0min
+[val] epoch:89 miou:0.7218 kappa:0.7979
+[save] Best Model saved at epoch:89 fold:0 =============================
+[train] epoch:90 iter:0/18 0.00% lr:0.000020 loss:0.472436 ETA:0.0min
+[val] epoch:90 miou:0.7191 kappa:0.7969
+[train] epoch:91 iter:0/18 0.00% lr:0.000014 loss:0.478724 ETA:0.0min
+[val] epoch:91 miou:0.7184 kappa:0.7982
+[train] epoch:92 iter:0/18 0.00% lr:0.000011 loss:0.436580 ETA:0.0min
+[val] epoch:92 miou:0.7177 kappa:0.7971
+[train] epoch:93 iter:0/18 0.00% lr:0.001000 loss:0.454166 ETA:0.0min
+[val] epoch:93 miou:0.4971 kappa:0.6115
+[train] epoch:94 iter:0/18 0.00% lr:0.001000 loss:0.440124 ETA:0.0min
+[val] epoch:94 miou:0.3883 kappa:0.4346
+[train] epoch:95 iter:0/18 0.00% lr:0.000999 loss:0.489942 ETA:0.0min
+[val] epoch:95 miou:0.4179 kappa:0.4385
+[train] epoch:96 iter:0/18 0.00% lr:0.000998 loss:0.500127 ETA:0.0min
+[val] epoch:96 miou:0.5734 kappa:0.6762
+[train] epoch:97 iter:0/18 0.00% lr:0.000996 loss:0.433720 ETA:0.0min
+[val] epoch:97 miou:0.5288 kappa:0.6207
+[train] epoch:98 iter:0/18 0.00% lr:0.000993 loss:0.472570 ETA:0.0min
+[val] epoch:98 miou:0.2876 kappa:0.2528
+[train] epoch:99 iter:0/18 0.00% lr:0.000990 loss:0.464341 ETA:0.0min
+[val] epoch:99 miou:0.3928 kappa:0.4049
+<Figure size 1200x400 with 2 Axes>
+K-FOLD CROSS VALIDATION RESULTS FOR 5 FOLDS
+--------------------------------
+Fold 0: 72.1782994602114 %
+Average: 72.1782994602114 %
+FOLD 1
+--------------------------------
+Total Epoch:100 Image_size:(256, 256) Training num:288  Validation num:72
+Reset trainable parameters of layer = Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(64, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(64, 32, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(128, 64, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(256, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(256, 128, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(512, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(512, 256, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(96, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(64, 32, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(192, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(128, 64, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(384, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(256, 128, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(64, 32, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(128, 64, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(160, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(64, 32, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(32, 5, kernel_size=(1, 1), stride=(1, 1))
+Reset trainable parameters of layer = Conv2d(32, 5, kernel_size=(1, 1), stride=(1, 1))
+Reset trainable parameters of layer = Conv2d(32, 5, kernel_size=(1, 1), stride=(1, 1))
+Reset trainable parameters of layer = Conv2d(32, 5, kernel_size=(1, 1), stride=(1, 1))
+[train] epoch:0 iter:0/18 0.00% lr:0.001000 loss:1.201926 ETA:0.0min
+[val] epoch:0 miou:0.1025 kappa:0.0005
+[save] Best Model saved at epoch:0 fold:1 =============================
+[train] epoch:1 iter:0/18 0.00% lr:0.000753 loss:0.634460 ETA:0.0min
+[val] epoch:1 miou:0.3041 kappa:0.5292
+[save] Best Model saved at epoch:1 fold:1 =============================
+[train] epoch:2 iter:0/18 0.00% lr:0.000258 loss:0.590743 ETA:0.0min
+[val] epoch:2 miou:0.4372 kappa:0.5870
+[save] Best Model saved at epoch:2 fold:1 =============================
+[train] epoch:3 iter:0/18 0.00% lr:0.001000 loss:0.589810 ETA:0.0min
+[val] epoch:3 miou:0.1033 kappa:0.0834
+[train] epoch:4 iter:0/18 0.00% lr:0.000934 loss:0.781255 ETA:0.0min
+[val] epoch:4 miou:0.1887 kappa:0.2440
+[train] epoch:5 iter:0/18 0.00% lr:0.000753 loss:0.628981 ETA:0.0min
+[val] epoch:5 miou:0.1484 kappa:0.1967
+[train] epoch:6 iter:0/18 0.00% lr:0.000505 loss:0.561759 ETA:0.0min
+[val] epoch:6 miou:0.4981 kappa:0.6445
+[save] Best Model saved at epoch:6 fold:1 =============================
+[train] epoch:7 iter:0/18 0.00% lr:0.000258 loss:0.592117 ETA:0.0min
+[val] epoch:7 miou:0.5606 kappa:0.7113
+[save] Best Model saved at epoch:7 fold:1 =============================
+[train] epoch:8 iter:0/18 0.00% lr:0.000076 loss:0.585892 ETA:0.0min
+[val] epoch:8 miou:0.5645 kappa:0.7239
+[save] Best Model saved at epoch:8 fold:1 =============================
+[train] epoch:9 iter:0/18 0.00% lr:0.001000 loss:0.556422 ETA:0.0min
+[val] epoch:9 miou:0.1548 kappa:0.1469
+[train] epoch:10 iter:0/18 0.00% lr:0.000983 loss:0.578251 ETA:0.0min
+[val] epoch:10 miou:0.4383 kappa:0.6275
+[train] epoch:11 iter:0/18 0.00% lr:0.000934 loss:0.629014 ETA:0.0min
+[val] epoch:11 miou:0.4074 kappa:0.4160
+[train] epoch:12 iter:0/18 0.00% lr:0.000855 loss:0.564779 ETA:0.0min
+[val] epoch:12 miou:0.5540 kappa:0.6803
+[train] epoch:13 iter:0/18 0.00% lr:0.000753 loss:0.542804 ETA:0.0min
+[val] epoch:13 miou:0.5156 kappa:0.6225
+[train] epoch:14 iter:0/18 0.00% lr:0.000633 loss:0.594560 ETA:0.0min
+[val] epoch:14 miou:0.5674 kappa:0.6066
+[save] Best Model saved at epoch:14 fold:1 =============================
+[train] epoch:15 iter:0/18 0.00% lr:0.000505 loss:0.474564 ETA:0.0min
+[val] epoch:15 miou:0.3851 kappa:0.4666
+[train] epoch:16 iter:0/18 0.00% lr:0.000377 loss:0.593431 ETA:0.0min
+[val] epoch:16 miou:0.6463 kappa:0.7240
+[save] Best Model saved at epoch:16 fold:1 =============================
+[train] epoch:17 iter:0/18 0.00% lr:0.000258 loss:0.545262 ETA:0.0min
+[val] epoch:17 miou:0.6346 kappa:0.7173
+[train] epoch:18 iter:0/18 0.00% lr:0.000155 loss:0.583844 ETA:0.0min
+[val] epoch:18 miou:0.6132 kappa:0.7212
+[train] epoch:19 iter:0/18 0.00% lr:0.000076 loss:0.490056 ETA:0.0min
+[val] epoch:19 miou:0.6506 kappa:0.7479
+[save] Best Model saved at epoch:19 fold:1 =============================
+[train] epoch:20 iter:0/18 0.00% lr:0.000027 loss:0.504242 ETA:0.0min
+[val] epoch:20 miou:0.6548 kappa:0.7510
+[save] Best Model saved at epoch:20 fold:1 =============================
+[train] epoch:21 iter:0/18 0.00% lr:0.001000 loss:0.488747 ETA:0.0min
+[val] epoch:21 miou:0.5137 kappa:0.4783
+[train] epoch:22 iter:0/18 0.00% lr:0.000996 loss:0.469855 ETA:0.0min
+[val] epoch:22 miou:0.3188 kappa:0.3399
+[train] epoch:23 iter:0/18 0.00% lr:0.000983 loss:0.504770 ETA:0.0min
+[val] epoch:23 miou:0.4736 kappa:0.4745
+[train] epoch:24 iter:0/18 0.00% lr:0.000962 loss:0.535372 ETA:0.0min
+[val] epoch:24 miou:0.4772 kappa:0.5026
+[train] epoch:25 iter:0/18 0.00% lr:0.000934 loss:0.520359 ETA:0.0min
+[val] epoch:25 miou:0.4827 kappa:0.4401
+[train] epoch:26 iter:0/18 0.00% lr:0.000898 loss:0.533010 ETA:0.0min
+[val] epoch:26 miou:0.4039 kappa:0.4588
+[train] epoch:27 iter:0/18 0.00% lr:0.000855 loss:0.575121 ETA:0.0min
+[val] epoch:27 miou:0.6334 kappa:0.7284
+[train] epoch:28 iter:0/18 0.00% lr:0.000806 loss:0.588896 ETA:0.0min
+[val] epoch:28 miou:0.5466 kappa:0.5914
+[train] epoch:29 iter:0/18 0.00% lr:0.000753 loss:0.544690 ETA:0.0min
+[val] epoch:29 miou:0.4953 kappa:0.5934
+[train] epoch:30 iter:0/18 0.00% lr:0.000694 loss:0.501115 ETA:0.0min
+[val] epoch:30 miou:0.5443 kappa:0.6950
+[train] epoch:31 iter:0/18 0.00% lr:0.000633 loss:0.506435 ETA:0.0min
+[val] epoch:31 miou:0.6602 kappa:0.7516
+[save] Best Model saved at epoch:31 fold:1 =============================
+[train] epoch:32 iter:0/18 0.00% lr:0.000570 loss:0.560098 ETA:0.0min
+[val] epoch:32 miou:0.6043 kappa:0.6914
+[train] epoch:33 iter:0/18 0.00% lr:0.000505 loss:0.526914 ETA:0.0min
+[val] epoch:33 miou:0.5648 kappa:0.6667
+[train] epoch:34 iter:0/18 0.00% lr:0.000440 loss:0.404719 ETA:0.0min
+[val] epoch:34 miou:0.6319 kappa:0.7074
+[train] epoch:35 iter:0/18 0.00% lr:0.000377 loss:0.491136 ETA:0.0min
+[val] epoch:35 miou:0.6367 kappa:0.7012
+[train] epoch:36 iter:0/18 0.00% lr:0.000316 loss:0.565053 ETA:0.0min
+[val] epoch:36 miou:0.6248 kappa:0.7317
+[train] epoch:37 iter:0/18 0.00% lr:0.000258 loss:0.504507 ETA:0.0min
+[val] epoch:37 miou:0.6644 kappa:0.7400
+[save] Best Model saved at epoch:37 fold:1 =============================
+[train] epoch:38 iter:0/18 0.00% lr:0.000204 loss:0.539200 ETA:0.0min
+[val] epoch:38 miou:0.6558 kappa:0.7269
+[train] epoch:39 iter:0/18 0.00% lr:0.000155 loss:0.515362 ETA:0.0min
+[val] epoch:39 miou:0.6603 kappa:0.7460
+[train] epoch:40 iter:0/18 0.00% lr:0.000112 loss:0.547079 ETA:0.0min
+[val] epoch:40 miou:0.6839 kappa:0.7675
+[save] Best Model saved at epoch:40 fold:1 =============================
+[train] epoch:41 iter:0/18 0.00% lr:0.000076 loss:0.525608 ETA:0.0min
+[val] epoch:41 miou:0.6715 kappa:0.7675
+[train] epoch:42 iter:0/18 0.00% lr:0.000048 loss:0.487713 ETA:0.0min
+[val] epoch:42 miou:0.6904 kappa:0.7784
+[save] Best Model saved at epoch:42 fold:1 =============================
+[train] epoch:43 iter:0/18 0.00% lr:0.000027 loss:0.491808 ETA:0.0min
+[val] epoch:43 miou:0.6863 kappa:0.7802
+[train] epoch:44 iter:0/18 0.00% lr:0.000014 loss:0.496072 ETA:0.0min
+[val] epoch:44 miou:0.6854 kappa:0.7794
+[train] epoch:45 iter:0/18 0.00% lr:0.001000 loss:0.490775 ETA:0.0min
+[val] epoch:45 miou:0.2790 kappa:0.2029
+[train] epoch:46 iter:0/18 0.00% lr:0.000999 loss:0.643371 ETA:0.0min
+[val] epoch:46 miou:0.1443 kappa:0.1047
+[train] epoch:47 iter:0/18 0.00% lr:0.000996 loss:0.509936 ETA:0.0min
+[val] epoch:47 miou:0.6046 kappa:0.6679
+[train] epoch:48 iter:0/18 0.00% lr:0.000990 loss:0.495220 ETA:0.0min
+[val] epoch:48 miou:0.3127 kappa:0.2987
+[train] epoch:49 iter:0/18 0.00% lr:0.000983 loss:0.503366 ETA:0.0min
+[val] epoch:49 miou:0.4973 kappa:0.5862
+[train] epoch:50 iter:0/18 0.00% lr:0.000974 loss:0.453742 ETA:0.0min
+[val] epoch:50 miou:0.6366 kappa:0.7272
+[train] epoch:51 iter:0/18 0.00% lr:0.000962 loss:0.612265 ETA:0.0min
+[val] epoch:51 miou:0.5608 kappa:0.6048
+[train] epoch:52 iter:0/18 0.00% lr:0.000949 loss:0.546131 ETA:0.0min
+[val] epoch:52 miou:0.6132 kappa:0.7214
+[train] epoch:53 iter:0/18 0.00% lr:0.000934 loss:0.529334 ETA:0.0min
+[val] epoch:53 miou:0.5636 kappa:0.5325
+[train] epoch:54 iter:0/18 0.00% lr:0.000917 loss:0.488145 ETA:0.0min
+[val] epoch:54 miou:0.5164 kappa:0.5704
+[train] epoch:55 iter:0/18 0.00% lr:0.000898 loss:0.470509 ETA:0.0min
+[val] epoch:55 miou:0.6097 kappa:0.7051
+[train] epoch:56 iter:0/18 0.00% lr:0.000877 loss:0.520222 ETA:0.0min
+[val] epoch:56 miou:0.6773 kappa:0.7660
+[train] epoch:57 iter:0/18 0.00% lr:0.000855 loss:0.509206 ETA:0.0min
+[val] epoch:57 miou:0.3484 kappa:0.3469
+[train] epoch:58 iter:0/18 0.00% lr:0.000831 loss:0.514351 ETA:0.0min
+[val] epoch:58 miou:0.4901 kappa:0.5670
+[train] epoch:59 iter:0/18 0.00% lr:0.000806 loss:0.523456 ETA:0.0min
+[val] epoch:59 miou:0.5121 kappa:0.5855
+[train] epoch:60 iter:0/18 0.00% lr:0.000780 loss:0.482169 ETA:0.0min
+[val] epoch:60 miou:0.5877 kappa:0.5807
+[train] epoch:61 iter:0/18 0.00% lr:0.000753 loss:0.486492 ETA:0.0min
+[val] epoch:61 miou:0.5508 kappa:0.6056
+[train] epoch:62 iter:0/18 0.00% lr:0.000724 loss:0.512281 ETA:0.0min
+[val] epoch:62 miou:0.4618 kappa:0.5345
+[train] epoch:63 iter:0/18 0.00% lr:0.000694 loss:0.495870 ETA:0.0min
+[val] epoch:63 miou:0.4055 kappa:0.2823
+[train] epoch:64 iter:0/18 0.00% lr:0.000664 loss:0.539301 ETA:0.0min
+[val] epoch:64 miou:0.5655 kappa:0.5920
+[train] epoch:65 iter:0/18 0.00% lr:0.000633 loss:0.481655 ETA:0.0min
+[val] epoch:65 miou:0.5539 kappa:0.5680
+[train] epoch:66 iter:0/18 0.00% lr:0.000602 loss:0.494801 ETA:0.0min
+[val] epoch:66 miou:0.5810 kappa:0.6171
+[train] epoch:67 iter:0/18 0.00% lr:0.000570 loss:0.525203 ETA:0.0min
+[val] epoch:67 miou:0.6462 kappa:0.7604
+[train] epoch:68 iter:0/18 0.00% lr:0.000537 loss:0.500208 ETA:0.0min
+[val] epoch:68 miou:0.6027 kappa:0.7222
+[train] epoch:69 iter:0/18 0.00% lr:0.000505 loss:0.511700 ETA:0.0min
+[val] epoch:69 miou:0.6581 kappa:0.7439
+[train] epoch:70 iter:0/18 0.00% lr:0.000473 loss:0.510811 ETA:0.0min
+[val] epoch:70 miou:0.5355 kappa:0.6492
+[train] epoch:71 iter:0/18 0.00% lr:0.000440 loss:0.508454 ETA:0.0min
+[val] epoch:71 miou:0.6552 kappa:0.7158
+[train] epoch:72 iter:0/18 0.00% lr:0.000408 loss:0.458271 ETA:0.0min
+[val] epoch:72 miou:0.6628 kappa:0.7659
+[train] epoch:73 iter:0/18 0.00% lr:0.000377 loss:0.460634 ETA:0.0min
+[val] epoch:73 miou:0.6360 kappa:0.7168
+[train] epoch:74 iter:0/18 0.00% lr:0.000346 loss:0.459182 ETA:0.0min
+[val] epoch:74 miou:0.6590 kappa:0.7312
+[train] epoch:75 iter:0/18 0.00% lr:0.000316 loss:0.434250 ETA:0.0min
+[val] epoch:75 miou:0.6973 kappa:0.7863
+[save] Best Model saved at epoch:75 fold:1 =============================
+[train] epoch:76 iter:0/18 0.00% lr:0.000286 loss:0.445499 ETA:0.0min
+[val] epoch:76 miou:0.6742 kappa:0.7697
+[train] epoch:77 iter:0/18 0.00% lr:0.000258 loss:0.468333 ETA:0.0min
+[val] epoch:77 miou:0.6295 kappa:0.7410
+[train] epoch:78 iter:0/18 0.00% lr:0.000230 loss:0.426672 ETA:0.0min
+[val] epoch:78 miou:0.6907 kappa:0.7783
+[train] epoch:79 iter:0/18 0.00% lr:0.000204 loss:0.436947 ETA:0.0min
+[val] epoch:79 miou:0.6407 kappa:0.7580
+[train] epoch:80 iter:0/18 0.00% lr:0.000179 loss:0.500949 ETA:0.0min
+[val] epoch:80 miou:0.6973 kappa:0.7900
+[train] epoch:81 iter:0/18 0.00% lr:0.000155 loss:0.470077 ETA:0.0min
+[val] epoch:81 miou:0.6969 kappa:0.7746
+[train] epoch:82 iter:0/18 0.00% lr:0.000133 loss:0.464685 ETA:0.0min
+[val] epoch:82 miou:0.6312 kappa:0.7313
+[train] epoch:83 iter:0/18 0.00% lr:0.000112 loss:0.501167 ETA:0.0min
+[val] epoch:83 miou:0.6190 kappa:0.6800
+[train] epoch:84 iter:0/18 0.00% lr:0.000093 loss:0.425530 ETA:0.0min
+[val] epoch:84 miou:0.7085 kappa:0.7889
+[save] Best Model saved at epoch:84 fold:1 =============================
+[train] epoch:85 iter:0/18 0.00% lr:0.000076 loss:0.437554 ETA:0.0min
+[val] epoch:85 miou:0.7004 kappa:0.7960
+[train] epoch:86 iter:0/18 0.00% lr:0.000061 loss:0.479450 ETA:0.0min
+[val] epoch:86 miou:0.7008 kappa:0.7827
+[train] epoch:87 iter:0/18 0.00% lr:0.000048 loss:0.478291 ETA:0.0min
+[val] epoch:87 miou:0.7000 kappa:0.7928
+[train] epoch:88 iter:0/18 0.00% lr:0.000036 loss:0.457774 ETA:0.0min
+[val] epoch:88 miou:0.7042 kappa:0.7960
+[train] epoch:89 iter:0/18 0.00% lr:0.000027 loss:0.509684 ETA:0.0min
+[val] epoch:89 miou:0.7015 kappa:0.7977
+[train] epoch:90 iter:0/18 0.00% lr:0.000020 loss:0.475659 ETA:0.0min
+[val] epoch:90 miou:0.7032 kappa:0.7942
+[train] epoch:91 iter:0/18 0.00% lr:0.000014 loss:0.436266 ETA:0.0min
+[val] epoch:91 miou:0.7039 kappa:0.7960
+[train] epoch:92 iter:0/18 0.00% lr:0.000011 loss:0.505063 ETA:0.0min
+[val] epoch:92 miou:0.7059 kappa:0.7966
+[train] epoch:93 iter:0/18 0.00% lr:0.001000 loss:0.463878 ETA:0.0min
+[val] epoch:93 miou:0.5355 kappa:0.5625
+[train] epoch:94 iter:0/18 0.00% lr:0.001000 loss:0.466280 ETA:0.0min
+[val] epoch:94 miou:0.5814 kappa:0.6513
+[train] epoch:95 iter:0/18 0.00% lr:0.000999 loss:0.466621 ETA:0.0min
+[val] epoch:95 miou:0.5544 kappa:0.6273
+[train] epoch:96 iter:0/18 0.00% lr:0.000998 loss:0.491002 ETA:0.0min
+[val] epoch:96 miou:0.4999 kappa:0.5731
+[train] epoch:97 iter:0/18 0.00% lr:0.000996 loss:0.461146 ETA:0.0min
+[val] epoch:97 miou:0.5323 kappa:0.6228
+[train] epoch:98 iter:0/18 0.00% lr:0.000993 loss:0.513431 ETA:0.0min
+[val] epoch:98 miou:0.2259 kappa:0.2587
+[train] epoch:99 iter:0/18 0.00% lr:0.000990 loss:0.456083 ETA:0.0min
+[val] epoch:99 miou:0.6503 kappa:0.7221
+<Figure size 1200x400 with 2 Axes>
+K-FOLD CROSS VALIDATION RESULTS FOR 5 FOLDS
+--------------------------------
+Fold 0: 72.1782994602114 %
+Fold 1: 70.8482861847812 %
+Average: 71.51329282249631 %
+FOLD 2
+--------------------------------
+Total Epoch:100 Image_size:(256, 256) Training num:288  Validation num:72
+Reset trainable parameters of layer = Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(64, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(64, 32, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(128, 64, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(256, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(256, 128, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(512, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(512, 256, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(96, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(64, 32, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(192, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(128, 64, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(384, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(256, 128, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(64, 32, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(128, 64, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(160, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(64, 32, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(32, 5, kernel_size=(1, 1), stride=(1, 1))
+Reset trainable parameters of layer = Conv2d(32, 5, kernel_size=(1, 1), stride=(1, 1))
+Reset trainable parameters of layer = Conv2d(32, 5, kernel_size=(1, 1), stride=(1, 1))
+Reset trainable parameters of layer = Conv2d(32, 5, kernel_size=(1, 1), stride=(1, 1))
+[train] epoch:0 iter:0/18 0.00% lr:0.001000 loss:1.208476 ETA:0.0min
+[val] epoch:0 miou:0.1861 kappa:0.2382
+[save] Best Model saved at epoch:0 fold:2 =============================
+[train] epoch:1 iter:0/18 0.00% lr:0.000753 loss:0.656097 ETA:0.0min
+[val] epoch:1 miou:0.4953 kappa:0.6165
+[save] Best Model saved at epoch:1 fold:2 =============================
+[train] epoch:2 iter:0/18 0.00% lr:0.000258 loss:0.602442 ETA:0.0min
+[val] epoch:2 miou:0.5535 kappa:0.7240
+[save] Best Model saved at epoch:2 fold:2 =============================
+[train] epoch:3 iter:0/18 0.00% lr:0.001000 loss:0.642829 ETA:0.0min
+[val] epoch:3 miou:0.0144 kappa:0.0008
+[train] epoch:4 iter:0/18 0.00% lr:0.000934 loss:0.584188 ETA:0.0min
+[val] epoch:4 miou:0.2650 kappa:0.3198
+[train] epoch:5 iter:0/18 0.00% lr:0.000753 loss:0.628281 ETA:0.0min
+[val] epoch:5 miou:0.3213 kappa:0.4123
+[train] epoch:6 iter:0/18 0.00% lr:0.000505 loss:0.594024 ETA:0.0min
+[val] epoch:6 miou:0.4259 kappa:0.4861
+[train] epoch:7 iter:0/18 0.00% lr:0.000258 loss:0.590184 ETA:0.0min
+[val] epoch:7 miou:0.5757 kappa:0.7382
+[save] Best Model saved at epoch:7 fold:2 =============================
+[train] epoch:8 iter:0/18 0.00% lr:0.000076 loss:0.559523 ETA:0.0min
+[val] epoch:8 miou:0.5969 kappa:0.7758
+[save] Best Model saved at epoch:8 fold:2 =============================
+[train] epoch:9 iter:0/18 0.00% lr:0.001000 loss:0.611010 ETA:0.0min
+[val] epoch:9 miou:0.4238 kappa:0.5675
+[train] epoch:10 iter:0/18 0.00% lr:0.000983 loss:0.577949 ETA:0.0min
+[val] epoch:10 miou:0.2767 kappa:0.3212
+[train] epoch:11 iter:0/18 0.00% lr:0.000934 loss:0.566956 ETA:0.0min
+[val] epoch:11 miou:0.3745 kappa:0.3628
+[train] epoch:12 iter:0/18 0.00% lr:0.000855 loss:0.623381 ETA:0.0min
+[val] epoch:12 miou:0.3883 kappa:0.4539
+[train] epoch:13 iter:0/18 0.00% lr:0.000753 loss:0.558155 ETA:0.0min
+[val] epoch:13 miou:0.5769 kappa:0.6626
+[train] epoch:14 iter:0/18 0.00% lr:0.000633 loss:0.615355 ETA:0.0min
+[val] epoch:14 miou:0.5238 kappa:0.6463
+[train] epoch:15 iter:0/18 0.00% lr:0.000505 loss:0.557750 ETA:0.0min
+[val] epoch:15 miou:0.6521 kappa:0.7483
+[save] Best Model saved at epoch:15 fold:2 =============================
+[train] epoch:16 iter:0/18 0.00% lr:0.000377 loss:0.556516 ETA:0.0min
+[val] epoch:16 miou:0.5543 kappa:0.6576
+[train] epoch:17 iter:0/18 0.00% lr:0.000258 loss:0.534128 ETA:0.0min
+[val] epoch:17 miou:0.6505 kappa:0.7438
+[train] epoch:18 iter:0/18 0.00% lr:0.000155 loss:0.513488 ETA:0.0min
+[val] epoch:18 miou:0.6381 kappa:0.7373
+[train] epoch:19 iter:0/18 0.00% lr:0.000076 loss:0.578321 ETA:0.0min
+[val] epoch:19 miou:0.6951 kappa:0.7804
+[save] Best Model saved at epoch:19 fold:2 =============================
+[train] epoch:20 iter:0/18 0.00% lr:0.000027 loss:0.561304 ETA:0.0min
+[val] epoch:20 miou:0.6965 kappa:0.7845
+[save] Best Model saved at epoch:20 fold:2 =============================
+[train] epoch:21 iter:0/18 0.00% lr:0.001000 loss:0.524573 ETA:0.0min
+[val] epoch:21 miou:0.5463 kappa:0.5951
+[train] epoch:22 iter:0/18 0.00% lr:0.000996 loss:0.667449 ETA:0.0min
+[val] epoch:22 miou:0.5488 kappa:0.5762
+[train] epoch:23 iter:0/18 0.00% lr:0.000983 loss:0.573006 ETA:0.0min
+[val] epoch:23 miou:0.5905 kappa:0.6098
+[train] epoch:24 iter:0/18 0.00% lr:0.000962 loss:0.533040 ETA:0.0min
+[val] epoch:24 miou:0.5535 kappa:0.6239
+[train] epoch:25 iter:0/18 0.00% lr:0.000934 loss:0.504436 ETA:0.0min
+[val] epoch:25 miou:0.5290 kappa:0.6722
+[train] epoch:26 iter:0/18 0.00% lr:0.000898 loss:0.611890 ETA:0.0min
+[val] epoch:26 miou:0.3083 kappa:0.3879
+[train] epoch:27 iter:0/18 0.00% lr:0.000855 loss:0.615886 ETA:0.0min
+[val] epoch:27 miou:0.4652 kappa:0.5514
+[train] epoch:28 iter:0/18 0.00% lr:0.000806 loss:0.578914 ETA:0.0min
+[val] epoch:28 miou:0.4609 kappa:0.6050
+[train] epoch:29 iter:0/18 0.00% lr:0.000753 loss:0.516903 ETA:0.0min
+[val] epoch:29 miou:0.3844 kappa:0.4708
+[train] epoch:30 iter:0/18 0.00% lr:0.000694 loss:0.506142 ETA:0.0min
+[val] epoch:30 miou:0.5594 kappa:0.6523
+[train] epoch:31 iter:0/18 0.00% lr:0.000633 loss:0.519579 ETA:0.0min
+[val] epoch:31 miou:0.6668 kappa:0.7750
+[train] epoch:32 iter:0/18 0.00% lr:0.000570 loss:0.534999 ETA:0.0min
+[val] epoch:32 miou:0.5993 kappa:0.7291
+[train] epoch:33 iter:0/18 0.00% lr:0.000505 loss:0.499191 ETA:0.0min
+[val] epoch:33 miou:0.6217 kappa:0.6801
+[train] epoch:34 iter:0/18 0.00% lr:0.000440 loss:0.536532 ETA:0.0min
+[val] epoch:34 miou:0.5553 kappa:0.6420
+[train] epoch:35 iter:0/18 0.00% lr:0.000377 loss:0.480424 ETA:0.0min
+[val] epoch:35 miou:0.7004 kappa:0.7723
+[save] Best Model saved at epoch:35 fold:2 =============================
+[train] epoch:36 iter:0/18 0.00% lr:0.000316 loss:0.498615 ETA:0.0min
+[val] epoch:36 miou:0.4536 kappa:0.4559
+[train] epoch:37 iter:0/18 0.00% lr:0.000258 loss:0.499524 ETA:0.0min
+[val] epoch:37 miou:0.7004 kappa:0.7838
+[train] epoch:38 iter:0/18 0.00% lr:0.000204 loss:0.473834 ETA:0.0min
+[val] epoch:38 miou:0.6782 kappa:0.7882
+[train] epoch:39 iter:0/18 0.00% lr:0.000155 loss:0.515547 ETA:0.0min
+[val] epoch:39 miou:0.6960 kappa:0.7728
+[train] epoch:40 iter:0/18 0.00% lr:0.000112 loss:0.503226 ETA:0.0min
+[val] epoch:40 miou:0.6847 kappa:0.7714
+[train] epoch:41 iter:0/18 0.00% lr:0.000076 loss:0.524887 ETA:0.0min
+[val] epoch:41 miou:0.7261 kappa:0.8045
+[save] Best Model saved at epoch:41 fold:2 =============================
+[train] epoch:42 iter:0/18 0.00% lr:0.000048 loss:0.517206 ETA:0.0min
+[val] epoch:42 miou:0.7210 kappa:0.8028
+[train] epoch:43 iter:0/18 0.00% lr:0.000027 loss:0.568201 ETA:0.0min
+[val] epoch:43 miou:0.7255 kappa:0.8039
+[train] epoch:44 iter:0/18 0.00% lr:0.000014 loss:0.453297 ETA:0.0min
+[val] epoch:44 miou:0.7244 kappa:0.8035
+[train] epoch:45 iter:0/18 0.00% lr:0.001000 loss:0.472010 ETA:0.0min
+[val] epoch:45 miou:0.4798 kappa:0.4993
+[train] epoch:46 iter:0/18 0.00% lr:0.000999 loss:0.554247 ETA:0.0min
+[val] epoch:46 miou:0.5111 kappa:0.6582
+[train] epoch:47 iter:0/18 0.00% lr:0.000996 loss:0.496379 ETA:0.0min
+[val] epoch:47 miou:0.5320 kappa:0.5342
+[train] epoch:48 iter:0/18 0.00% lr:0.000990 loss:0.545041 ETA:0.0min
+[val] epoch:48 miou:0.2306 kappa:0.2502
+[train] epoch:49 iter:0/18 0.00% lr:0.000983 loss:0.518214 ETA:0.0min
+[val] epoch:49 miou:0.5306 kappa:0.6007
+[train] epoch:50 iter:0/18 0.00% lr:0.000974 loss:0.508933 ETA:0.0min
+[val] epoch:50 miou:0.6012 kappa:0.7349
+[train] epoch:51 iter:0/18 0.00% lr:0.000962 loss:0.547022 ETA:0.0min
+[val] epoch:51 miou:0.5825 kappa:0.6467
+[train] epoch:52 iter:0/18 0.00% lr:0.000949 loss:0.508233 ETA:0.0min
+[val] epoch:52 miou:0.2790 kappa:0.2041
+[train] epoch:53 iter:0/18 0.00% lr:0.000934 loss:0.524550 ETA:0.0min
+[val] epoch:53 miou:0.7057 kappa:0.7839
+[train] epoch:54 iter:0/18 0.00% lr:0.000917 loss:0.546986 ETA:0.0min
+[val] epoch:54 miou:0.5713 kappa:0.7137
+[train] epoch:55 iter:0/18 0.00% lr:0.000898 loss:0.588125 ETA:0.0min
+[val] epoch:55 miou:0.6210 kappa:0.7559
+[train] epoch:56 iter:0/18 0.00% lr:0.000877 loss:0.588064 ETA:0.0min
+[val] epoch:56 miou:0.5271 kappa:0.6569
+[train] epoch:57 iter:0/18 0.00% lr:0.000855 loss:0.475108 ETA:0.0min
+[val] epoch:57 miou:0.3673 kappa:0.3376
+[train] epoch:58 iter:0/18 0.00% lr:0.000831 loss:0.460635 ETA:0.0min
+[val] epoch:58 miou:0.5321 kappa:0.4814
+[train] epoch:59 iter:0/18 0.00% lr:0.000806 loss:0.534697 ETA:0.0min
+[val] epoch:59 miou:0.6801 kappa:0.7866
+[train] epoch:60 iter:0/18 0.00% lr:0.000780 loss:0.505033 ETA:0.0min
+[val] epoch:60 miou:0.6255 kappa:0.7210
+[train] epoch:61 iter:0/18 0.00% lr:0.000753 loss:0.533331 ETA:0.0min
+[val] epoch:61 miou:0.5560 kappa:0.6127
+[train] epoch:62 iter:0/18 0.00% lr:0.000724 loss:0.502247 ETA:0.0min
+[val] epoch:62 miou:0.3818 kappa:0.3117
+[train] epoch:63 iter:0/18 0.00% lr:0.000694 loss:0.514092 ETA:0.0min
+[val] epoch:63 miou:0.6253 kappa:0.6742
+[train] epoch:64 iter:0/18 0.00% lr:0.000664 loss:0.502162 ETA:0.0min
+[val] epoch:64 miou:0.7069 kappa:0.7881
+[train] epoch:65 iter:0/18 0.00% lr:0.000633 loss:0.504092 ETA:0.0min
+[val] epoch:65 miou:0.6899 kappa:0.7885
+[train] epoch:66 iter:0/18 0.00% lr:0.000602 loss:0.526487 ETA:0.0min
+[val] epoch:66 miou:0.6036 kappa:0.7151
+[train] epoch:67 iter:0/18 0.00% lr:0.000570 loss:0.484983 ETA:0.0min
+[val] epoch:67 miou:0.7010 kappa:0.7976
+[train] epoch:68 iter:0/18 0.00% lr:0.000537 loss:0.476556 ETA:0.0min
+[val] epoch:68 miou:0.7146 kappa:0.8038
+[train] epoch:69 iter:0/18 0.00% lr:0.000505 loss:0.506257 ETA:0.0min
+[val] epoch:69 miou:0.6474 kappa:0.7235
+[train] epoch:70 iter:0/18 0.00% lr:0.000473 loss:0.486952 ETA:0.0min
+[val] epoch:70 miou:0.6581 kappa:0.7650
+[train] epoch:71 iter:0/18 0.00% lr:0.000440 loss:0.436347 ETA:0.0min
+[val] epoch:71 miou:0.5992 kappa:0.6620
+[train] epoch:72 iter:0/18 0.00% lr:0.000408 loss:0.464283 ETA:0.0min
+[val] epoch:72 miou:0.5524 kappa:0.6751
+[train] epoch:73 iter:0/18 0.00% lr:0.000377 loss:0.455995 ETA:0.0min
+[val] epoch:73 miou:0.5589 kappa:0.6080
+[train] epoch:74 iter:0/18 0.00% lr:0.000346 loss:0.467707 ETA:0.0min
+[val] epoch:74 miou:0.6549 kappa:0.7927
+[train] epoch:75 iter:0/18 0.00% lr:0.000316 loss:0.446973 ETA:0.0min
+[val] epoch:75 miou:0.7338 kappa:0.8095
+[save] Best Model saved at epoch:75 fold:2 =============================
+[train] epoch:76 iter:0/18 0.00% lr:0.000286 loss:0.492655 ETA:0.0min
+[val] epoch:76 miou:0.7140 kappa:0.7820
+[train] epoch:77 iter:0/18 0.00% lr:0.000258 loss:0.516370 ETA:0.0min
+[val] epoch:77 miou:0.6192 kappa:0.7067
+[train] epoch:78 iter:0/18 0.00% lr:0.000230 loss:0.456522 ETA:0.0min
+[val] epoch:78 miou:0.6369 kappa:0.7461
+[train] epoch:79 iter:0/18 0.00% lr:0.000204 loss:0.432452 ETA:0.0min
+[val] epoch:79 miou:0.6797 kappa:0.7539
+[train] epoch:80 iter:0/18 0.00% lr:0.000179 loss:0.450123 ETA:0.0min
+[val] epoch:80 miou:0.7241 kappa:0.7977
+[train] epoch:81 iter:0/18 0.00% lr:0.000155 loss:0.454100 ETA:0.0min
+[val] epoch:81 miou:0.6923 kappa:0.7564
+[train] epoch:82 iter:0/18 0.00% lr:0.000133 loss:0.466774 ETA:0.0min
+[val] epoch:82 miou:0.6908 kappa:0.7958
+[train] epoch:83 iter:0/18 0.00% lr:0.000112 loss:0.510741 ETA:0.0min
+[val] epoch:83 miou:0.7225 kappa:0.8115
+[train] epoch:84 iter:0/18 0.00% lr:0.000093 loss:0.504866 ETA:0.0min
+[val] epoch:84 miou:0.7401 kappa:0.8172
+[save] Best Model saved at epoch:84 fold:2 =============================
+[train] epoch:85 iter:0/18 0.00% lr:0.000076 loss:0.485246 ETA:0.0min
+[val] epoch:85 miou:0.7246 kappa:0.8172
+[train] epoch:86 iter:0/18 0.00% lr:0.000061 loss:0.492042 ETA:0.0min
+[val] epoch:86 miou:0.7398 kappa:0.8145
+[train] epoch:87 iter:0/18 0.00% lr:0.000048 loss:0.471791 ETA:0.0min
+[val] epoch:87 miou:0.7380 kappa:0.8207
+[train] epoch:88 iter:0/18 0.00% lr:0.000036 loss:0.452449 ETA:0.0min
+[val] epoch:88 miou:0.7295 kappa:0.8230
+[train] epoch:89 iter:0/18 0.00% lr:0.000027 loss:0.535604 ETA:0.0min
+[val] epoch:89 miou:0.7416 kappa:0.8221
+[save] Best Model saved at epoch:89 fold:2 =============================
+[train] epoch:90 iter:0/18 0.00% lr:0.000020 loss:0.444252 ETA:0.0min
+[val] epoch:90 miou:0.7405 kappa:0.8224
+[train] epoch:91 iter:0/18 0.00% lr:0.000014 loss:0.423375 ETA:0.0min
+[val] epoch:91 miou:0.7436 kappa:0.8232
+[save] Best Model saved at epoch:91 fold:2 =============================
+[train] epoch:92 iter:0/18 0.00% lr:0.000011 loss:0.459600 ETA:0.0min
+[val] epoch:92 miou:0.7422 kappa:0.8236
+[train] epoch:93 iter:0/18 0.00% lr:0.001000 loss:0.440731 ETA:0.0min
+[val] epoch:93 miou:0.6000 kappa:0.6901
+[train] epoch:94 iter:0/18 0.00% lr:0.001000 loss:0.486635 ETA:0.0min
+[val] epoch:94 miou:0.4697 kappa:0.5301
+[train] epoch:95 iter:0/18 0.00% lr:0.000999 loss:0.539439 ETA:0.0min
+[val] epoch:95 miou:0.4077 kappa:0.3203
+[train] epoch:96 iter:0/18 0.00% lr:0.000998 loss:0.526312 ETA:0.0min
+[val] epoch:96 miou:0.5248 kappa:0.5474
+[train] epoch:97 iter:0/18 0.00% lr:0.000996 loss:0.475335 ETA:0.0min
+[val] epoch:97 miou:0.5210 kappa:0.6120
+[train] epoch:98 iter:0/18 0.00% lr:0.000993 loss:0.476842 ETA:0.0min
+[val] epoch:98 miou:0.6584 kappa:0.7419
+[train] epoch:99 iter:0/18 0.00% lr:0.000990 loss:0.524636 ETA:0.0min
+[val] epoch:99 miou:0.4829 kappa:0.5086
+<Figure size 1200x400 with 2 Axes>
+K-FOLD CROSS VALIDATION RESULTS FOR 5 FOLDS
+--------------------------------
+Fold 0: 72.1782994602114 %
+Fold 1: 70.8482861847812 %
+Fold 2: 74.36391748874291 %
+Average: 72.4635010445785 %
+FOLD 3
+--------------------------------
+Total Epoch:100 Image_size:(256, 256) Training num:288  Validation num:72
+Reset trainable parameters of layer = Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(64, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(64, 32, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(128, 64, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(256, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(256, 128, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(512, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(512, 256, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(96, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(64, 32, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(192, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(128, 64, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(384, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(256, 128, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(64, 32, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(128, 64, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(160, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(64, 32, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(32, 5, kernel_size=(1, 1), stride=(1, 1))
+Reset trainable parameters of layer = Conv2d(32, 5, kernel_size=(1, 1), stride=(1, 1))
+Reset trainable parameters of layer = Conv2d(32, 5, kernel_size=(1, 1), stride=(1, 1))
+Reset trainable parameters of layer = Conv2d(32, 5, kernel_size=(1, 1), stride=(1, 1))
+[train] epoch:0 iter:0/18 0.00% lr:0.001000 loss:1.237611 ETA:0.0min
+[val] epoch:0 miou:0.0722 kappa:-0.0252
+[save] Best Model saved at epoch:0 fold:3 =============================
+[train] epoch:1 iter:0/18 0.00% lr:0.000753 loss:0.779956 ETA:0.0min
+[val] epoch:1 miou:0.2863 kappa:0.4109
+[save] Best Model saved at epoch:1 fold:3 =============================
+[train] epoch:2 iter:0/18 0.00% lr:0.000258 loss:0.690201 ETA:0.0min
+[val] epoch:2 miou:0.3789 kappa:0.5887
+[save] Best Model saved at epoch:2 fold:3 =============================
+[train] epoch:3 iter:0/18 0.00% lr:0.001000 loss:0.703863 ETA:0.0min
+[val] epoch:3 miou:0.3236 kappa:0.4256
+[train] epoch:4 iter:0/18 0.00% lr:0.000934 loss:0.763453 ETA:0.0min
+[val] epoch:4 miou:0.2772 kappa:0.3532
+[train] epoch:5 iter:0/18 0.00% lr:0.000753 loss:0.660155 ETA:0.0min
+[val] epoch:5 miou:0.3638 kappa:0.4488
+[train] epoch:6 iter:0/18 0.00% lr:0.000505 loss:0.622625 ETA:0.0min
+[val] epoch:6 miou:0.5323 kappa:0.6666
+[save] Best Model saved at epoch:6 fold:3 =============================
+[train] epoch:7 iter:0/18 0.00% lr:0.000258 loss:0.593159 ETA:0.0min
+[val] epoch:7 miou:0.5730 kappa:0.7289
+[save] Best Model saved at epoch:7 fold:3 =============================
+[train] epoch:8 iter:0/18 0.00% lr:0.000076 loss:0.591833 ETA:0.0min
+[val] epoch:8 miou:0.5829 kappa:0.7432
+[save] Best Model saved at epoch:8 fold:3 =============================
+[train] epoch:9 iter:0/18 0.00% lr:0.001000 loss:0.668081 ETA:0.0min
+[val] epoch:9 miou:0.5287 kappa:0.6743
+[train] epoch:10 iter:0/18 0.00% lr:0.000983 loss:0.600478 ETA:0.0min
+[val] epoch:10 miou:0.4478 kappa:0.5569
+[train] epoch:11 iter:0/18 0.00% lr:0.000934 loss:0.592196 ETA:0.0min
+[val] epoch:11 miou:0.3776 kappa:0.5150
+[train] epoch:12 iter:0/18 0.00% lr:0.000855 loss:0.649919 ETA:0.0min
+[val] epoch:12 miou:0.5161 kappa:0.6381
+[train] epoch:13 iter:0/18 0.00% lr:0.000753 loss:0.609976 ETA:0.0min
+[val] epoch:13 miou:0.5214 kappa:0.6748
+[train] epoch:14 iter:0/18 0.00% lr:0.000633 loss:0.567611 ETA:0.0min
+[val] epoch:14 miou:0.5697 kappa:0.7316
+[train] epoch:15 iter:0/18 0.00% lr:0.000505 loss:0.574140 ETA:0.0min
+[val] epoch:15 miou:0.4880 kappa:0.6035
+[train] epoch:16 iter:0/18 0.00% lr:0.000377 loss:0.545544 ETA:0.0min
+[val] epoch:16 miou:0.5822 kappa:0.7405
+[train] epoch:17 iter:0/18 0.00% lr:0.000258 loss:0.522993 ETA:0.0min
+[val] epoch:17 miou:0.5585 kappa:0.7039
+[train] epoch:18 iter:0/18 0.00% lr:0.000155 loss:0.528756 ETA:0.0min
+[val] epoch:18 miou:0.5898 kappa:0.7519
+[save] Best Model saved at epoch:18 fold:3 =============================
+[train] epoch:19 iter:0/18 0.00% lr:0.000076 loss:0.524096 ETA:0.0min
+[val] epoch:19 miou:0.5947 kappa:0.7566
+[save] Best Model saved at epoch:19 fold:3 =============================
+[train] epoch:20 iter:0/18 0.00% lr:0.000027 loss:0.592837 ETA:0.0min
+[val] epoch:20 miou:0.5957 kappa:0.7582
+[save] Best Model saved at epoch:20 fold:3 =============================
+[train] epoch:21 iter:0/18 0.00% lr:0.001000 loss:0.557682 ETA:0.0min
+[val] epoch:21 miou:0.2918 kappa:0.2102
+[train] epoch:22 iter:0/18 0.00% lr:0.000996 loss:0.647664 ETA:0.0min
+[val] epoch:22 miou:0.3047 kappa:0.2765
+[train] epoch:23 iter:0/18 0.00% lr:0.000983 loss:0.611665 ETA:0.0min
+[val] epoch:23 miou:0.2735 kappa:0.3057
+[train] epoch:24 iter:0/18 0.00% lr:0.000962 loss:0.538545 ETA:0.0min
+[val] epoch:24 miou:0.4508 kappa:0.4683
+[train] epoch:25 iter:0/18 0.00% lr:0.000934 loss:0.475711 ETA:0.0min
+[val] epoch:25 miou:0.6267 kappa:0.6861
+[save] Best Model saved at epoch:25 fold:3 =============================
+[train] epoch:26 iter:0/18 0.00% lr:0.000898 loss:0.536685 ETA:0.0min
+[val] epoch:26 miou:0.4437 kappa:0.5338
+[train] epoch:27 iter:0/18 0.00% lr:0.000855 loss:0.574939 ETA:0.0min
+[val] epoch:27 miou:0.5446 kappa:0.6360
+[train] epoch:28 iter:0/18 0.00% lr:0.000806 loss:0.620365 ETA:0.0min
+[val] epoch:28 miou:0.5472 kappa:0.6011
+[train] epoch:29 iter:0/18 0.00% lr:0.000753 loss:0.506526 ETA:0.0min
+[val] epoch:29 miou:0.4861 kappa:0.4419
+[train] epoch:30 iter:0/18 0.00% lr:0.000694 loss:0.502994 ETA:0.0min
+[val] epoch:30 miou:0.5122 kappa:0.5386
+[train] epoch:31 iter:0/18 0.00% lr:0.000633 loss:0.593579 ETA:0.0min
+[val] epoch:31 miou:0.5624 kappa:0.5622
+[train] epoch:32 iter:0/18 0.00% lr:0.000570 loss:0.504942 ETA:0.0min
+[val] epoch:32 miou:0.6384 kappa:0.7393
+[save] Best Model saved at epoch:32 fold:3 =============================
+[train] epoch:33 iter:0/18 0.00% lr:0.000505 loss:0.556957 ETA:0.0min
+[val] epoch:33 miou:0.6794 kappa:0.7693
+[save] Best Model saved at epoch:33 fold:3 =============================
+[train] epoch:34 iter:0/18 0.00% lr:0.000440 loss:0.504589 ETA:0.0min
+[val] epoch:34 miou:0.4476 kappa:0.4538
+[train] epoch:35 iter:0/18 0.00% lr:0.000377 loss:0.507656 ETA:0.0min
+[val] epoch:35 miou:0.5319 kappa:0.6277
+[train] epoch:36 iter:0/18 0.00% lr:0.000316 loss:0.508260 ETA:0.0min
+[val] epoch:36 miou:0.6397 kappa:0.7060
+[train] epoch:37 iter:0/18 0.00% lr:0.000258 loss:0.478579 ETA:0.0min
+[val] epoch:37 miou:0.6793 kappa:0.7675
+[train] epoch:38 iter:0/18 0.00% lr:0.000204 loss:0.587712 ETA:0.0min
+[val] epoch:38 miou:0.6615 kappa:0.7477
+[train] epoch:39 iter:0/18 0.00% lr:0.000155 loss:0.581868 ETA:0.0min
+[val] epoch:39 miou:0.6771 kappa:0.7449
+[train] epoch:40 iter:0/18 0.00% lr:0.000112 loss:0.513867 ETA:0.0min
+[val] epoch:40 miou:0.6769 kappa:0.7561
+[train] epoch:41 iter:0/18 0.00% lr:0.000076 loss:0.456623 ETA:0.0min
+[val] epoch:41 miou:0.6822 kappa:0.7697
+[save] Best Model saved at epoch:41 fold:3 =============================
+[train] epoch:42 iter:0/18 0.00% lr:0.000048 loss:0.558793 ETA:0.0min
+[val] epoch:42 miou:0.7045 kappa:0.7836
+[save] Best Model saved at epoch:42 fold:3 =============================
+[train] epoch:43 iter:0/18 0.00% lr:0.000027 loss:0.489769 ETA:0.0min
+[val] epoch:43 miou:0.7021 kappa:0.7833
+[train] epoch:44 iter:0/18 0.00% lr:0.000014 loss:0.499577 ETA:0.0min
+[val] epoch:44 miou:0.7071 kappa:0.7851
+[save] Best Model saved at epoch:44 fold:3 =============================
+[train] epoch:45 iter:0/18 0.00% lr:0.001000 loss:0.467807 ETA:0.0min
+[val] epoch:45 miou:0.4238 kappa:0.4835
+[train] epoch:46 iter:0/18 0.00% lr:0.000999 loss:0.498478 ETA:0.0min
+[val] epoch:46 miou:0.2575 kappa:0.2238
+[train] epoch:47 iter:0/18 0.00% lr:0.000996 loss:0.531511 ETA:0.0min
+[val] epoch:47 miou:0.5736 kappa:0.6109
+[train] epoch:48 iter:0/18 0.00% lr:0.000990 loss:0.520092 ETA:0.0min
+[val] epoch:48 miou:0.5352 kappa:0.6286
+[train] epoch:49 iter:0/18 0.00% lr:0.000983 loss:0.475002 ETA:0.0min
+[val] epoch:49 miou:0.3783 kappa:0.4680
+[train] epoch:50 iter:0/18 0.00% lr:0.000974 loss:0.528498 ETA:0.0min
+[val] epoch:50 miou:0.3701 kappa:0.2330
+[train] epoch:51 iter:0/18 0.00% lr:0.000962 loss:0.449592 ETA:0.0min
+[val] epoch:51 miou:0.5679 kappa:0.6221
+[train] epoch:52 iter:0/18 0.00% lr:0.000949 loss:0.509604 ETA:0.0min
+[val] epoch:52 miou:0.3595 kappa:0.5378
+[train] epoch:53 iter:0/18 0.00% lr:0.000934 loss:0.531757 ETA:0.0min
+[val] epoch:53 miou:0.5269 kappa:0.6359
+[train] epoch:54 iter:0/18 0.00% lr:0.000917 loss:0.538989 ETA:0.0min
+[val] epoch:54 miou:0.4884 kappa:0.5402
+[train] epoch:55 iter:0/18 0.00% lr:0.000898 loss:0.477427 ETA:0.0min
+[val] epoch:55 miou:0.6161 kappa:0.7027
+[train] epoch:56 iter:0/18 0.00% lr:0.000877 loss:0.533602 ETA:0.0min
+[val] epoch:56 miou:0.5454 kappa:0.6614
+[train] epoch:57 iter:0/18 0.00% lr:0.000855 loss:0.487566 ETA:0.0min
+[val] epoch:57 miou:0.5755 kappa:0.6699
+[train] epoch:58 iter:0/18 0.00% lr:0.000831 loss:0.469456 ETA:0.0min
+[val] epoch:58 miou:0.5738 kappa:0.6776
+[train] epoch:59 iter:0/18 0.00% lr:0.000806 loss:0.504333 ETA:0.0min
+[val] epoch:59 miou:0.6223 kappa:0.6719
+[train] epoch:60 iter:0/18 0.00% lr:0.000780 loss:0.511045 ETA:0.0min
+[val] epoch:60 miou:0.6113 kappa:0.6874
+[train] epoch:61 iter:0/18 0.00% lr:0.000753 loss:0.503417 ETA:0.0min
+[val] epoch:61 miou:0.5897 kappa:0.7241
+[train] epoch:62 iter:0/18 0.00% lr:0.000724 loss:0.466510 ETA:0.0min
+[val] epoch:62 miou:0.6407 kappa:0.7126
+[train] epoch:63 iter:0/18 0.00% lr:0.000694 loss:0.502180 ETA:0.0min
+[val] epoch:63 miou:0.4532 kappa:0.4692
+[train] epoch:64 iter:0/18 0.00% lr:0.000664 loss:0.458792 ETA:0.0min
+[val] epoch:64 miou:0.6747 kappa:0.7527
+[train] epoch:65 iter:0/18 0.00% lr:0.000633 loss:0.537126 ETA:0.0min
+[val] epoch:65 miou:0.6646 kappa:0.7451
+[train] epoch:66 iter:0/18 0.00% lr:0.000602 loss:0.533392 ETA:0.0min
+[val] epoch:66 miou:0.6493 kappa:0.7279
+[train] epoch:67 iter:0/18 0.00% lr:0.000570 loss:0.688585 ETA:0.0min
+[val] epoch:67 miou:0.6911 kappa:0.7617
+[train] epoch:68 iter:0/18 0.00% lr:0.000537 loss:0.499767 ETA:0.0min
+[val] epoch:68 miou:0.6070 kappa:0.7125
+[train] epoch:69 iter:0/18 0.00% lr:0.000505 loss:0.474629 ETA:0.0min
+[val] epoch:69 miou:0.6098 kappa:0.6908
+[train] epoch:70 iter:0/18 0.00% lr:0.000473 loss:0.461328 ETA:0.0min
+[val] epoch:70 miou:0.6886 kappa:0.7885
+[train] epoch:71 iter:0/18 0.00% lr:0.000440 loss:0.526746 ETA:0.0min
+[val] epoch:71 miou:0.7180 kappa:0.7951
+[save] Best Model saved at epoch:71 fold:3 =============================
+[train] epoch:72 iter:0/18 0.00% lr:0.000408 loss:0.530034 ETA:0.0min
+[val] epoch:72 miou:0.6029 kappa:0.6312
+[train] epoch:73 iter:0/18 0.00% lr:0.000377 loss:0.472037 ETA:0.0min
+[val] epoch:73 miou:0.6298 kappa:0.7589
+[train] epoch:74 iter:0/18 0.00% lr:0.000346 loss:0.453689 ETA:0.0min
+[val] epoch:74 miou:0.5156 kappa:0.5639
+[train] epoch:75 iter:0/18 0.00% lr:0.000316 loss:0.449558 ETA:0.0min
+[val] epoch:75 miou:0.6885 kappa:0.7622
+[train] epoch:76 iter:0/18 0.00% lr:0.000286 loss:0.506822 ETA:0.0min
+[val] epoch:76 miou:0.7042 kappa:0.7936
+[train] epoch:77 iter:0/18 0.00% lr:0.000258 loss:0.498624 ETA:0.0min
+[val] epoch:77 miou:0.6644 kappa:0.7547
+[train] epoch:78 iter:0/18 0.00% lr:0.000230 loss:0.495318 ETA:0.0min
+[val] epoch:78 miou:0.6851 kappa:0.7970
+[train] epoch:79 iter:0/18 0.00% lr:0.000204 loss:0.432114 ETA:0.0min
+[val] epoch:79 miou:0.7050 kappa:0.7827
+[train] epoch:80 iter:0/18 0.00% lr:0.000179 loss:0.480584 ETA:0.0min
+[val] epoch:80 miou:0.7115 kappa:0.7969
+[train] epoch:81 iter:0/18 0.00% lr:0.000155 loss:0.437565 ETA:0.0min
+[val] epoch:81 miou:0.7175 kappa:0.8044
+[train] epoch:82 iter:0/18 0.00% lr:0.000133 loss:0.471438 ETA:0.0min
+[val] epoch:82 miou:0.7334 kappa:0.8096
+[save] Best Model saved at epoch:82 fold:3 =============================
+[train] epoch:83 iter:0/18 0.00% lr:0.000112 loss:0.467864 ETA:0.0min
+[val] epoch:83 miou:0.7197 kappa:0.7983
+[train] epoch:84 iter:0/18 0.00% lr:0.000093 loss:0.458548 ETA:0.0min
+[val] epoch:84 miou:0.7376 kappa:0.8088
+[save] Best Model saved at epoch:84 fold:3 =============================
+[train] epoch:85 iter:0/18 0.00% lr:0.000076 loss:0.494392 ETA:0.0min
+[val] epoch:85 miou:0.7384 kappa:0.8112
+[save] Best Model saved at epoch:85 fold:3 =============================
+[train] epoch:86 iter:0/18 0.00% lr:0.000061 loss:0.479301 ETA:0.0min
+[val] epoch:86 miou:0.7316 kappa:0.8093
+[train] epoch:87 iter:0/18 0.00% lr:0.000048 loss:0.471287 ETA:0.0min
+[val] epoch:87 miou:0.7375 kappa:0.8120
+[train] epoch:88 iter:0/18 0.00% lr:0.000036 loss:0.466507 ETA:0.0min
+[val] epoch:88 miou:0.7352 kappa:0.8095
+[train] epoch:89 iter:0/18 0.00% lr:0.000027 loss:0.436135 ETA:0.0min
+[val] epoch:89 miou:0.7380 kappa:0.8092
+[train] epoch:90 iter:0/18 0.00% lr:0.000020 loss:0.421554 ETA:0.0min
+[val] epoch:90 miou:0.7389 kappa:0.8119
+[save] Best Model saved at epoch:90 fold:3 =============================
+[train] epoch:91 iter:0/18 0.00% lr:0.000014 loss:0.453561 ETA:0.0min
+[val] epoch:91 miou:0.7321 kappa:0.8096
+[train] epoch:92 iter:0/18 0.00% lr:0.000011 loss:0.459814 ETA:0.0min
+[val] epoch:92 miou:0.7356 kappa:0.8104
+[train] epoch:93 iter:0/18 0.00% lr:0.001000 loss:0.426601 ETA:0.0min
+[val] epoch:93 miou:0.5327 kappa:0.5605
+[train] epoch:94 iter:0/18 0.00% lr:0.001000 loss:0.483378 ETA:0.0min
+[val] epoch:94 miou:0.6299 kappa:0.7193
+[train] epoch:95 iter:0/18 0.00% lr:0.000999 loss:0.498279 ETA:0.0min
+[val] epoch:95 miou:0.5992 kappa:0.6768
+[train] epoch:96 iter:0/18 0.00% lr:0.000998 loss:0.512011 ETA:0.0min
+[val] epoch:96 miou:0.4135 kappa:0.4182
+[train] epoch:97 iter:0/18 0.00% lr:0.000996 loss:0.555923 ETA:0.0min
+[val] epoch:97 miou:0.6770 kappa:0.7376
+[train] epoch:98 iter:0/18 0.00% lr:0.000993 loss:0.505471 ETA:0.0min
+[val] epoch:98 miou:0.5216 kappa:0.5830
+[train] epoch:99 iter:0/18 0.00% lr:0.000990 loss:0.450181 ETA:0.0min
+[val] epoch:99 miou:0.4766 kappa:0.5248
+<Figure size 1200x400 with 2 Axes>
+K-FOLD CROSS VALIDATION RESULTS FOR 5 FOLDS
+--------------------------------
+Fold 0: 72.1782994602114 %
+Fold 1: 70.8482861847812 %
+Fold 2: 74.36391748874291 %
+Fold 3: 73.88554464615554 %
+Average: 72.81901194497277 %
+FOLD 4
+--------------------------------
+Total Epoch:100 Image_size:(256, 256) Training num:288  Validation num:72
+Reset trainable parameters of layer = Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+Reset trainable parameters of layer = Conv2d(64, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(64, 32, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(128, 64, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(256, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(256, 128, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(512, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(512, 256, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(96, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(64, 32, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(192, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(128, 64, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(384, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(256, 128, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(128, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(64, 32, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(256, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(128, 64, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(160, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+Reset trainable parameters of layer = ConvTranspose2d(64, 32, kernel_size=(2, 2), stride=(2, 2))
+Reset trainable parameters of layer = Conv2d(32, 5, kernel_size=(1, 1), stride=(1, 1))
+Reset trainable parameters of layer = Conv2d(32, 5, kernel_size=(1, 1), stride=(1, 1))
+Reset trainable parameters of layer = Conv2d(32, 5, kernel_size=(1, 1), stride=(1, 1))
+Reset trainable parameters of layer = Conv2d(32, 5, kernel_size=(1, 1), stride=(1, 1))
+[train] epoch:0 iter:0/18 0.00% lr:0.001000 loss:1.208223 ETA:0.0min
+[val] epoch:0 miou:0.1009 kappa:0.0000
+[save] Best Model saved at epoch:0 fold:4 =============================
+[train] epoch:1 iter:0/18 0.00% lr:0.000753 loss:0.714276 ETA:0.0min
+[val] epoch:1 miou:0.2555 kappa:0.4067
+[save] Best Model saved at epoch:1 fold:4 =============================
+[train] epoch:2 iter:0/18 0.00% lr:0.000258 loss:0.689666 ETA:0.0min
+[val] epoch:2 miou:0.4845 kappa:0.6380
+[save] Best Model saved at epoch:2 fold:4 =============================
+[train] epoch:3 iter:0/18 0.00% lr:0.001000 loss:0.621807 ETA:0.0min
+[val] epoch:3 miou:0.1625 kappa:0.2148
+[train] epoch:4 iter:0/18 0.00% lr:0.000934 loss:0.571854 ETA:0.0min
+[val] epoch:4 miou:0.5315 kappa:0.6815
+[save] Best Model saved at epoch:4 fold:4 =============================
+[train] epoch:5 iter:0/18 0.00% lr:0.000753 loss:0.765803 ETA:0.0min
+[val] epoch:5 miou:0.3399 kappa:0.4080
+[train] epoch:6 iter:0/18 0.00% lr:0.000505 loss:0.565175 ETA:0.0min
+[val] epoch:6 miou:0.4809 kappa:0.5654
+[train] epoch:7 iter:0/18 0.00% lr:0.000258 loss:0.548208 ETA:0.0min
+[val] epoch:7 miou:0.4436 kappa:0.5424
+[train] epoch:8 iter:0/18 0.00% lr:0.000076 loss:0.544962 ETA:0.0min
+[val] epoch:8 miou:0.5942 kappa:0.7417
+[save] Best Model saved at epoch:8 fold:4 =============================
+[train] epoch:9 iter:0/18 0.00% lr:0.001000 loss:0.603789 ETA:0.0min
+[val] epoch:9 miou:0.4002 kappa:0.4517
+[train] epoch:10 iter:0/18 0.00% lr:0.000983 loss:0.576943 ETA:0.0min
+[val] epoch:10 miou:0.3675 kappa:0.3252
+[train] epoch:11 iter:0/18 0.00% lr:0.000934 loss:0.599211 ETA:0.0min
+[val] epoch:11 miou:0.2971 kappa:0.2417
+[train] epoch:12 iter:0/18 0.00% lr:0.000855 loss:0.650888 ETA:0.0min
+[val] epoch:12 miou:0.5124 kappa:0.6062
+[train] epoch:13 iter:0/18 0.00% lr:0.000753 loss:0.632357 ETA:0.0min
+[val] epoch:13 miou:0.3973 kappa:0.3401
+[train] epoch:14 iter:0/18 0.00% lr:0.000633 loss:0.578327 ETA:0.0min
+[val] epoch:14 miou:0.4110 kappa:0.4857
+[train] epoch:15 iter:0/18 0.00% lr:0.000505 loss:0.493140 ETA:0.0min
+[val] epoch:15 miou:0.5085 kappa:0.6080
+[train] epoch:16 iter:0/18 0.00% lr:0.000377 loss:0.528209 ETA:0.0min
+[val] epoch:16 miou:0.6371 kappa:0.7492
+[save] Best Model saved at epoch:16 fold:4 =============================
+[train] epoch:17 iter:0/18 0.00% lr:0.000258 loss:0.520256 ETA:0.0min
+[val] epoch:17 miou:0.6415 kappa:0.7579
+[save] Best Model saved at epoch:17 fold:4 =============================
+[train] epoch:18 iter:0/18 0.00% lr:0.000155 loss:0.547391 ETA:0.0min
+[val] epoch:18 miou:0.5912 kappa:0.7000
+[train] epoch:19 iter:0/18 0.00% lr:0.000076 loss:0.489279 ETA:0.0min
+[val] epoch:19 miou:0.6560 kappa:0.7671
+[save] Best Model saved at epoch:19 fold:4 =============================
+[train] epoch:20 iter:0/18 0.00% lr:0.000027 loss:0.496413 ETA:0.0min
+[val] epoch:20 miou:0.6626 kappa:0.7776
+[save] Best Model saved at epoch:20 fold:4 =============================
+[train] epoch:21 iter:0/18 0.00% lr:0.001000 loss:0.571545 ETA:0.0min
+[val] epoch:21 miou:0.5740 kappa:0.6695
+[train] epoch:22 iter:0/18 0.00% lr:0.000996 loss:0.629907 ETA:0.0min
+[val] epoch:22 miou:0.2802 kappa:0.3404
+[train] epoch:23 iter:0/18 0.00% lr:0.000983 loss:0.615357 ETA:0.0min
+[val] epoch:23 miou:0.2145 kappa:0.2290
+[train] epoch:24 iter:0/18 0.00% lr:0.000962 loss:0.590704 ETA:0.0min
+[val] epoch:24 miou:0.5894 kappa:0.6895
+[train] epoch:25 iter:0/18 0.00% lr:0.000934 loss:0.560229 ETA:0.0min
+[val] epoch:25 miou:0.3236 kappa:0.2974
+[train] epoch:26 iter:0/18 0.00% lr:0.000898 loss:0.568441 ETA:0.0min
+[val] epoch:26 miou:0.5086 kappa:0.5893
+[train] epoch:27 iter:0/18 0.00% lr:0.000855 loss:0.542288 ETA:0.0min
+[val] epoch:27 miou:0.6396 kappa:0.7436
+[train] epoch:28 iter:0/18 0.00% lr:0.000806 loss:0.553610 ETA:0.0min
+[val] epoch:28 miou:0.5380 kappa:0.6342
+[train] epoch:29 iter:0/18 0.00% lr:0.000753 loss:0.558552 ETA:0.0min
+[val] epoch:29 miou:0.4886 kappa:0.5541
+[train] epoch:30 iter:0/18 0.00% lr:0.000694 loss:0.538370 ETA:0.0min
+[val] epoch:30 miou:0.5467 kappa:0.6587
+[train] epoch:31 iter:0/18 0.00% lr:0.000633 loss:0.501808 ETA:0.0min
+[val] epoch:31 miou:0.3633 kappa:0.4330
+[train] epoch:32 iter:0/18 0.00% lr:0.000570 loss:0.511563 ETA:0.0min
+[val] epoch:32 miou:0.5606 kappa:0.7096
+[train] epoch:33 iter:0/18 0.00% lr:0.000505 loss:0.497050 ETA:0.0min
+[val] epoch:33 miou:0.5395 kappa:0.6458
+[train] epoch:34 iter:0/18 0.00% lr:0.000440 loss:0.509760 ETA:0.0min
+[val] epoch:34 miou:0.6609 kappa:0.7922
+[train] epoch:35 iter:0/18 0.00% lr:0.000377 loss:0.525075 ETA:0.0min
+[val] epoch:35 miou:0.5640 kappa:0.6871
+[train] epoch:36 iter:0/18 0.00% lr:0.000316 loss:0.487181 ETA:0.0min
+[val] epoch:36 miou:0.4649 kappa:0.5030
+[train] epoch:37 iter:0/18 0.00% lr:0.000258 loss:0.498379 ETA:0.0min
+[val] epoch:37 miou:0.6273 kappa:0.7508
+[train] epoch:38 iter:0/18 0.00% lr:0.000204 loss:0.485308 ETA:0.0min
+[val] epoch:38 miou:0.6377 kappa:0.7813
+[train] epoch:39 iter:0/18 0.00% lr:0.000155 loss:0.567759 ETA:0.0min
+[val] epoch:39 miou:0.6802 kappa:0.7980
+[save] Best Model saved at epoch:39 fold:4 =============================
+[train] epoch:40 iter:0/18 0.00% lr:0.000112 loss:0.521158 ETA:0.0min
+[val] epoch:40 miou:0.6495 kappa:0.7605
+[train] epoch:41 iter:0/18 0.00% lr:0.000076 loss:0.457364 ETA:0.0min
+[val] epoch:41 miou:0.6733 kappa:0.7961
+[train] epoch:42 iter:0/18 0.00% lr:0.000048 loss:0.468984 ETA:0.0min
+[val] epoch:42 miou:0.6834 kappa:0.7982
+[save] Best Model saved at epoch:42 fold:4 =============================
+[train] epoch:43 iter:0/18 0.00% lr:0.000027 loss:0.478307 ETA:0.0min
+[val] epoch:43 miou:0.6793 kappa:0.7942
+[train] epoch:44 iter:0/18 0.00% lr:0.000014 loss:0.451424 ETA:0.0min
+[val] epoch:44 miou:0.6796 kappa:0.7956
+[train] epoch:45 iter:0/18 0.00% lr:0.001000 loss:0.462234 ETA:0.0min
+[val] epoch:45 miou:0.2321 kappa:0.2758
+[train] epoch:46 iter:0/18 0.00% lr:0.000999 loss:0.649349 ETA:0.0min
+[val] epoch:46 miou:0.4200 kappa:0.3953
+[train] epoch:47 iter:0/18 0.00% lr:0.000996 loss:0.516546 ETA:0.0min
+[val] epoch:47 miou:0.5772 kappa:0.6749
+[train] epoch:48 iter:0/18 0.00% lr:0.000990 loss:0.495942 ETA:0.0min
+[val] epoch:48 miou:0.4382 kappa:0.5674
+[train] epoch:49 iter:0/18 0.00% lr:0.000983 loss:0.536497 ETA:0.0min
+[val] epoch:49 miou:0.1589 kappa:0.0896
+[train] epoch:50 iter:0/18 0.00% lr:0.000974 loss:0.537446 ETA:0.0min
+[val] epoch:50 miou:0.6058 kappa:0.6924
+[train] epoch:51 iter:0/18 0.00% lr:0.000962 loss:0.501060 ETA:0.0min
+[val] epoch:51 miou:0.5291 kappa:0.6617
+[train] epoch:52 iter:0/18 0.00% lr:0.000949 loss:0.510360 ETA:0.0min
+[val] epoch:52 miou:0.5076 kappa:0.5893
+[train] epoch:53 iter:0/18 0.00% lr:0.000934 loss:0.533170 ETA:0.0min
+[val] epoch:53 miou:0.5549 kappa:0.6859
+[train] epoch:54 iter:0/18 0.00% lr:0.000917 loss:0.448259 ETA:0.0min
+[val] epoch:54 miou:0.5333 kappa:0.6193
+[train] epoch:55 iter:0/18 0.00% lr:0.000898 loss:0.484148 ETA:0.0min
+[val] epoch:55 miou:0.6177 kappa:0.7706
+[train] epoch:56 iter:0/18 0.00% lr:0.000877 loss:0.517214 ETA:0.0min
+[val] epoch:56 miou:0.5704 kappa:0.6640
+[train] epoch:57 iter:0/18 0.00% lr:0.000855 loss:0.605303 ETA:0.0min
+[val] epoch:57 miou:0.5365 kappa:0.6077
+[train] epoch:58 iter:0/18 0.00% lr:0.000831 loss:0.473371 ETA:0.0min
+[val] epoch:58 miou:0.6407 kappa:0.7495
+[train] epoch:59 iter:0/18 0.00% lr:0.000806 loss:0.497861 ETA:0.0min
+[val] epoch:59 miou:0.3734 kappa:0.5116
+[train] epoch:60 iter:0/18 0.00% lr:0.000780 loss:0.480575 ETA:0.0min
+[val] epoch:60 miou:0.5354 kappa:0.6364
+[train] epoch:61 iter:0/18 0.00% lr:0.000753 loss:0.441393 ETA:0.0min
+[val] epoch:61 miou:0.6205 kappa:0.7275
+[train] epoch:62 iter:0/18 0.00% lr:0.000724 loss:0.437832 ETA:0.0min
+[val] epoch:62 miou:0.5254 kappa:0.5757
+[train] epoch:63 iter:0/18 0.00% lr:0.000694 loss:0.523870 ETA:0.0min
+[val] epoch:63 miou:0.6093 kappa:0.7379
+[train] epoch:64 iter:0/18 0.00% lr:0.000664 loss:0.454211 ETA:0.0min
+[val] epoch:64 miou:0.6287 kappa:0.7275
+[train] epoch:65 iter:0/18 0.00% lr:0.000633 loss:0.494891 ETA:0.0min
+[val] epoch:65 miou:0.5017 kappa:0.6258
+[train] epoch:66 iter:0/18 0.00% lr:0.000602 loss:0.438212 ETA:0.0min
+[val] epoch:66 miou:0.4577 kappa:0.4127
+[train] epoch:67 iter:0/18 0.00% lr:0.000570 loss:0.429009 ETA:0.0min
+[val] epoch:67 miou:0.3526 kappa:0.3746
+[train] epoch:68 iter:0/18 0.00% lr:0.000537 loss:0.457503 ETA:0.0min
+[val] epoch:68 miou:0.5124 kappa:0.6169
+[train] epoch:69 iter:0/18 0.00% lr:0.000505 loss:0.440823 ETA:0.0min
+[val] epoch:69 miou:0.5384 kappa:0.6402
+[train] epoch:70 iter:0/18 0.00% lr:0.000473 loss:0.450179 ETA:0.0min
+[val] epoch:70 miou:0.6041 kappa:0.6687
+[train] epoch:71 iter:0/18 0.00% lr:0.000440 loss:0.517410 ETA:0.0min
+[val] epoch:71 miou:0.6467 kappa:0.7699
+[train] epoch:72 iter:0/18 0.00% lr:0.000408 loss:0.465854 ETA:0.0min
+[val] epoch:72 miou:0.6391 kappa:0.7881
+[train] epoch:73 iter:0/18 0.00% lr:0.000377 loss:0.529634 ETA:0.0min
+[val] epoch:73 miou:0.6355 kappa:0.7730
+[train] epoch:74 iter:0/18 0.00% lr:0.000346 loss:0.478386 ETA:0.0min
+[val] epoch:74 miou:0.6644 kappa:0.7934
+[train] epoch:75 iter:0/18 0.00% lr:0.000316 loss:0.456666 ETA:0.0min
+[val] epoch:75 miou:0.5704 kappa:0.6483
+[train] epoch:76 iter:0/18 0.00% lr:0.000286 loss:0.481826 ETA:0.0min
+[val] epoch:76 miou:0.6631 kappa:0.7986
+[train] epoch:77 iter:0/18 0.00% lr:0.000258 loss:0.483538 ETA:0.0min
+[val] epoch:77 miou:0.6773 kappa:0.7879
+[train] epoch:78 iter:0/18 0.00% lr:0.000230 loss:0.455005 ETA:0.0min
+[val] epoch:78 miou:0.6692 kappa:0.7803
+[train] epoch:79 iter:0/18 0.00% lr:0.000204 loss:0.461391 ETA:0.0min
+[val] epoch:79 miou:0.5982 kappa:0.7122
+[train] epoch:80 iter:0/18 0.00% lr:0.000179 loss:0.448599 ETA:0.0min
+[val] epoch:80 miou:0.6499 kappa:0.7958
+[train] epoch:81 iter:0/18 0.00% lr:0.000155 loss:0.456531 ETA:0.0min
+[val] epoch:81 miou:0.6655 kappa:0.7932
+[train] epoch:82 iter:0/18 0.00% lr:0.000133 loss:0.459629 ETA:0.0min
+[val] epoch:82 miou:0.6314 kappa:0.7605
+[train] epoch:83 iter:0/18 0.00% lr:0.000112 loss:0.446654 ETA:0.0min
+[val] epoch:83 miou:0.6772 kappa:0.7858
+[train] epoch:84 iter:0/18 0.00% lr:0.000093 loss:0.487023 ETA:0.0min
+[val] epoch:84 miou:0.6972 kappa:0.8060
+[save] Best Model saved at epoch:84 fold:4 =============================
+[train] epoch:85 iter:0/18 0.00% lr:0.000076 loss:0.456317 ETA:0.0min
+[val] epoch:85 miou:0.6984 kappa:0.8032
+[save] Best Model saved at epoch:85 fold:4 =============================
+[train] epoch:86 iter:0/18 0.00% lr:0.000061 loss:0.507386 ETA:0.0min
+[val] epoch:86 miou:0.7051 kappa:0.8140
+[save] Best Model saved at epoch:86 fold:4 =============================
+[train] epoch:87 iter:0/18 0.00% lr:0.000048 loss:0.466697 ETA:0.0min
+[val] epoch:87 miou:0.6898 kappa:0.8099
+[train] epoch:88 iter:0/18 0.00% lr:0.000036 loss:0.476984 ETA:0.0min
+[val] epoch:88 miou:0.7026 kappa:0.8140
+[train] epoch:89 iter:0/18 0.00% lr:0.000027 loss:0.482557 ETA:0.0min
+[val] epoch:89 miou:0.7062 kappa:0.8171
+[save] Best Model saved at epoch:89 fold:4 =============================
+[train] epoch:90 iter:0/18 0.00% lr:0.000020 loss:0.436959 ETA:0.0min
+[val] epoch:90 miou:0.6959 kappa:0.8177
+[train] epoch:91 iter:0/18 0.00% lr:0.000014 loss:0.473301 ETA:0.0min
+[val] epoch:91 miou:0.7026 kappa:0.8164
+[train] epoch:92 iter:0/18 0.00% lr:0.000011 loss:0.456786 ETA:0.0min
+[val] epoch:92 miou:0.7039 kappa:0.8144
+[train] epoch:93 iter:0/18 0.00% lr:0.001000 loss:0.469986 ETA:0.0min
+[val] epoch:93 miou:0.3630 kappa:0.4467
+[train] epoch:94 iter:0/18 0.00% lr:0.001000 loss:0.579194 ETA:0.0min
+[val] epoch:94 miou:0.3688 kappa:0.3682
+[train] epoch:95 iter:0/18 0.00% lr:0.000999 loss:0.495045 ETA:0.0min
+[val] epoch:95 miou:0.4998 kappa:0.6202
+[train] epoch:96 iter:0/18 0.00% lr:0.000998 loss:0.519595 ETA:0.0min
+[val] epoch:96 miou:0.1526 kappa:0.1397
+[train] epoch:97 iter:0/18 0.00% lr:0.000996 loss:0.537505 ETA:0.0min
+[val] epoch:97 miou:0.5163 kappa:0.5822
+[train] epoch:98 iter:0/18 0.00% lr:0.000993 loss:0.470139 ETA:0.0min
+[val] epoch:98 miou:0.5554 kappa:0.6619
+[train] epoch:99 iter:0/18 0.00% lr:0.000990 loss:0.488780 ETA:0.0min
+[val] epoch:99 miou:0.5694 kappa:0.6363
+<Figure size 1200x400 with 2 Axes>
+K-FOLD CROSS VALIDATION RESULTS FOR 5 FOLDS
+--------------------------------
+Fold 0: 72.1782994602114 %
+Fold 1: 70.8482861847812 %
+Fold 2: 74.36391748874291 %
+Fold 3: 73.88554464615554 %
+Fold 4: 70.61598955036011 %
+Average: 72.37840746605023 %

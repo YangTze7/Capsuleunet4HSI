@@ -34,7 +34,7 @@ train_transform = transforms_seg.Compose([
     # transforms_seg.RandomRotationY(),
 ])
 
-train_path = r'D:\zhuhai_contest\珠海一号高光谱地物分类\train_data'
+train_path = ''
 imgs_dirs = sorted(glob.glob(os.path.join(train_path,"img*.tif")),key=os.path.getmtime)
 
 
